@@ -1,0 +1,28 @@
+<div class="es-online-shopping-container">
+  <div class="es-info-container">
+    <div class="es-card-icon">
+      <i class="fa fa-fire" aria-hidden="true"></i>
+    </div>
+    <div class="es-card-title">
+      Online Shopping
+    </div>
+
+    <div class="es-online-shopping-view-more">
+      View More
+    </div>
+  </div>
+
+  <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+    <div class="es-online-shopping-card" *ngFor="let image of images;let i= index">
+      <div class="es-online-shopping-inner">
+        <div class="es-online-shopping-logo-container">
+          <img class="" src="{{image.image}}">
+        </div>
+        <div class="es-online-shopping-name-container">
+          <h4>{{image.text}}</h4>
+        </div>
+      </div>
+    </div>
+  </owl-carousel>
+
+</div>

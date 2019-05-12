@@ -1,0 +1,18 @@
+<div class="es-partners-bank-container">
+  <div class="es-info-container">
+    <div class="es-card-title">
+      Partners Bank
+    </div>
+  </div>
+
+  <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+    <div class="es-partners-bank-card" *ngFor="let image of images;let i= index">
+      <div class="es-partners-bank-inner">
+        <div class="es-partners-bank-logo-container">
+          <img class="" src="{{image.image}}">
+        </div>
+      </div>
+    </div>
+  </owl-carousel>
+
+</div>

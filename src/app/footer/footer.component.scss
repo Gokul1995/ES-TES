@@ -1,0 +1,29 @@
+.es-footer-container {
+  height: 480px;
+  background: #333333;
+  margin-top: 25px;
+
+  .es-footer-sections {
+    .es-footer-title {
+      p {
+        color: #ffffff;
+        font-weight: 700;
+        margin-top: 65px;
+        font-size: 16px;
+      }
+    }
+    .es-footer-content {
+      margin-top: -10px;
+      .es-footer-list {
+        list-style: none;
+        padding-inline-start: 0;
+        a {
+          color: #ffffff73;
+          line-height: 2;
+          font-size: 14px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

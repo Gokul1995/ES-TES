@@ -1,0 +1,29 @@
+.es-slider-container {
+  align-items: center;
+  box-shadow:0px 10px 20px 0px #88888817;
+  -webkit-box-shadow: 0px 10px 20px 0px #88888817;
+  -moz-box-shadow: 0px 10px 20px 0px #88888817;
+  background: #ffffff;
+  height: 300px;
+  border-radius: 8px;
+  margin-top: 15px;
+
+  .slider-content{
+    height: 100%;
+    .es-carousel {
+      height: 100%;
+    }
+    .carousel-inner {
+      height: 100%;
+      border-radius: 8px;
+      .carousel-item {
+        height: 100%;
+        img{
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+
+  }
+}

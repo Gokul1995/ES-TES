@@ -1,0 +1,28 @@
+<div class="es-popular-service-container">
+  <div class="es-info-container">
+    <div class="es-card-icon">
+      <i class="fa fa-fire" aria-hidden="true"></i>
+    </div>
+    <div class="es-card-title">
+      Internet Bill Payment
+    </div>
+
+    <div class="es-pop-view-more">
+      View More
+    </div>
+  </div>
+
+  <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+    <div class="es-pop-service-card" *ngFor="let image of images;let i= index">
+      <div class="es-pop-service-inner">
+        <div class="es-pop-service-logo-container">
+          <img class="" src="{{image.image}}">
+        </div>
+        <div class="es-pop-service-name-container">
+          <h4>{{image.text}}</h4>
+        </div>
+      </div>
+    </div>
+  </owl-carousel>
+
+</div>

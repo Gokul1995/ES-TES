@@ -1,0 +1,28 @@
+<div class="es-utility-container">
+  <div class="es-info-container">
+    <div class="es-card-icon">
+      <i class="fa fa-fire" aria-hidden="true"></i>
+    </div>
+    <div class="es-card-title">
+      Utility Bill Payment
+    </div>
+
+    <div class="es-utl-view-more">
+      View More
+    </div>
+  </div>
+
+  <owl-carousel [options]="carouselOptions" [items]="images" [carouselClasses]="['owl-theme', 'row', 'sliding']">
+    <div class="es-utl-service-card" *ngFor="let image of images;let i= index">
+      <div class="es-utl-service-inner">
+        <div class="es-utl-service-logo-container">
+          <img class="" src="{{image.image}}">
+        </div>
+        <div class="es-utl-service-name-container">
+          <h4>{{image.text}}</h4>
+        </div>
+      </div>
+    </div>
+  </owl-carousel>
+
+</div>

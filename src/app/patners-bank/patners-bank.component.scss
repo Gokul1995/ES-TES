@@ -1,0 +1,48 @@
+.es-partners-bank-container{
+  align-items: center;
+  box-shadow:0px 10px 20px 0px #88888817;
+  -webkit-box-shadow: 0px 10px 20px 0px #88888817;
+  -moz-box-shadow: 0px 10px 20px 0px #88888817;
+  background: #ffffff;
+  height: 180px;
+  padding: 35px;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+.es-info-container {
+  display: inline-flex;
+  margin-bottom: 10px;
+  width: 100%;
+
+  .es-card-title {
+    margin-left: 15px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+  }
+  .es-partners-bank-view-more{
+    float: right;
+  }
+}
+
+
+.es-partners-bank-card {
+  .es-partners-bank-inner {
+
+    text-align: center;
+    .es-partners-bank-logo-container {
+      border-radius: 100%;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      margin-top: 10px;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+      }
+    }
+  }
+}
+
