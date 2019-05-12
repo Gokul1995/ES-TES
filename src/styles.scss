@@ -1,1 +1,207 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~wfk-montserrat/montserrat";
+
+$primary-color: #43d71d;
+$btn-register-color: #43d71d;
+$light-grey: #f9f9f9;
+
+body {
+  background-color: $light-grey;
+  font-family: montserrat-regular;
+}
+
+.es-btn-primary {
+  background-color: $btn-register-color;
+  color: #ffffff;
+  width: 140px;
+  height: 40px;
+}
+
+.es-btn-procced {
+  background-color: $primary-color;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.es-input-basic {
+  background-color: #f7f7f7;
+  height: 40px;
+  border: none;
+}
+.es-popular-service-container {
+  .owl-carousel {
+    .owl-nav {
+      button.owl-prev {
+        position: absolute;
+        left: -20px;
+        background: #fff;
+        top: 65px;
+        height: 50px;
+        border-radius: 100%;
+        width: 50px;
+        outline: none;
+
+        &:hover {
+          color: rgba(22, 20, 21, 0.53);
+        }
+      }
+      button.owl-next {
+        position: absolute;
+        right: -20px;
+        background: #fff;
+        top: 65px;
+        height: 50px;
+        border-radius: 100%;
+        width: 50px;
+        outline: none;
+        
+        &:hover {
+          color: rgba(22, 20, 21, 0.53);
+        }
+      }
+    }
+  }
+}
+
+ .es-utility-container {
+  .owl-carousel {
+    .owl-nav {
+      button.owl-prev {
+        position: absolute;
+        left: -20px;
+        background: #fff;
+        top: 65px;
+        height: 50px;
+        border-radius: 100%;
+        width: 50px;
+        outline: none;
+
+        &:hover {
+          color: rgba(22, 20, 21, 0.53);
+        }
+      }
+      button.owl-next {
+        position: absolute;
+        right: -20px;
+        background: #fff;
+        top: 65px;
+        height: 50px;
+        border-radius: 100%;
+        width: 50px;
+        outline: none;
+
+        &:hover {
+          color: rgba(22, 20, 21, 0.53);
+        }
+      }
+    }
+  }
+}
+
+.es-movies-container {
+  .owl-carousel {
+    .owl-nav {
+      button.owl-prev {
+        position: absolute;
+        left: -20px;
+        background: #fff;
+        top: 65px;
+        height: 50px;
+        border-radius: 100%;
+        width: 50px;
+        outline: none;
+
+        &:hover {
+          color: rgba(22, 20, 21, 0.53);
+        }
+      }
+      button.owl-next {
+        position: absolute;
+        right: -20px;
+        background: #fff;
+        top: 65px;
+        height: 50px;
+        border-radius: 100%;
+        width: 50px;
+        outline: none;
+
+        &:hover {
+          color: rgba(22, 20, 21, 0.53);
+        }
+      }
+    }
+  }
+}
+
+
+.es-online-shopping-container {
+  .owl-carousel {
+    .owl-nav {
+      button.owl-prev {
+        position: absolute;
+        left: -20px;
+        background: #fff;
+        top: 65px;
+        height: 50px;
+        border-radius: 100%;
+        width: 50px;
+        outline: none;
+
+        &:hover {
+          color: rgba(22, 20, 21, 0.53);
+        }
+      }
+      button.owl-next {
+        position: absolute;
+        right: -20px;
+        background: #fff;
+        top: 65px;
+        height: 50px;
+        border-radius: 100%;
+        width: 50px;
+        outline: none;
+
+        &:hover {
+          color: rgba(22, 20, 21, 0.53);
+        }
+      }
+    }
+  }
+}
+.es-partners-bank-container {
+  .owl-carousel {
+    .owl-nav {
+      button.owl-prev {
+        position: absolute;
+        left: -25px;
+        background: #fff;
+        top: 6px;
+        height: 50px;
+        border-radius: 100%;
+        width: 50px;
+        outline: none;
+
+        &:hover {
+          color: rgba(22, 20, 21, 0.53);
+        }
+      }
+      button.owl-next {
+        position: absolute;
+        right: -20px;
+        background: #fff;
+        top: 6px;
+        height: 50px;
+        border-radius: 100%;
+        width: 50px;
+        outline: none;
+
+        &:hover {
+          color: rgba(22, 20, 21, 0.53);
+        }
+      }
+    }
+  }
+}
